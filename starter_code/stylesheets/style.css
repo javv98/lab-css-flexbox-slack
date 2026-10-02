@@ -8,3 +8,155 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+@media  (max-width: 768px) {
+
+nav {
+    display: flex;
+    background-color:#540B51;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav div ul {
+    display: none;
+}
+
+nav div img {
+    width: auto;
+    height: 26px;
+    padding-left: 20px;
+}
+
+nav div button {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+}
+
+nav div button img {
+    height: auto;
+    width: 20px;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#540B51;
+}
+
+header div img {
+    width: 100%;
+    height: auto;
+}
+
+header div h1 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+header div div {
+    display: flex;
+    flex-direction: column;
+}
+
+header div div button {
+    height: 50px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#540B51;
+    font-weight: 600;
+}
+
+.google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4285F4;
+}
+
+.google img {
+    justify-self: flex-start;
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.google span {
+    justify-self: center;
+    color: white;
+    flex: 1;
+    padding-right: 30px;
+}
+
+header div div button img {
+    height: auto;
+    width: 24px;
+}
+
+header div p {
+    color: white;
+}
+
+header div p span {
+    color: #ECB12F;
+    font-weight: 800;
+}
+
+.companies {
+    background-color: #F3EAE2;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies p {
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.companies div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1;
+    padding-bottom: 40px;
+}
+.companies div img {
+    width: auto;
+    height: 40px;
+    padding: 10px
+}
+
+}
